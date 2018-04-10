@@ -1,0 +1,47 @@
+body{
+	margin:0;
+	padding: 0;
+	font-family: 'Open Sans' , sans-serif;
+	font-size:22px;
+	font-weight: 700;
+	background-size:100%;
+}
+
+.wrapper{
+	margin: 0 auto; 
+
+}
+
+.cal-header{
+	text-align: center;
+	margin-top: 110px;
+	font-size:28px;
+	color:#000;
+}
+#tab{
+	margin: 60px auto;
+	width: 750px;
+	height: 400px;
+	background-color: #fff;
+}
+
+#m{
+	margin-bottom: 20px;
+	font-size: 32px;
+	background-color: #fff;
+}
+
+td{
+	padding:15px;
+	text-align: center;
+}
+
+th{
+	border-bottom: 1px solid lightgrey;
+}
+
+
+tr>td:nth-child(7n),
+th:last-child{
+	color:red;
+}
